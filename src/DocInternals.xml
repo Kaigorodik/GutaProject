@@ -1,0 +1,458 @@
+﻿<DocInternals>
+  <AlwaysLoose>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+  </AlwaysLoose>
+  <FieldSrcTables>
+    <String>6</String>
+    <String>2</String>
+    <String>Лист1</String>
+    <String>Данные по продажам</String>
+    <String>7</String>
+    <String>1</String>
+    <String>Лист1</String>
+    <String>8</String>
+    <String>1</String>
+    <String>Лист1</String>
+    <String>9</String>
+    <String>1</String>
+    <String>Лист1</String>
+    <String>10</String>
+    <String>1</String>
+    <String>Группа продаж</String>
+    <String>11</String>
+    <String>3</String>
+    <String>Группа продаж</String>
+    <String>Подгруппа продаж</String>
+    <String>Продуктовый справочник</String>
+    <String>12</String>
+    <String>2</String>
+    <String>Данные по продажам</String>
+    <String>Сети</String>
+    <String>13</String>
+    <String>2</String>
+    <String>Данные по продажам</String>
+    <String>Продуктовый справочник</String>
+    <String>14</String>
+    <String>1</String>
+    <String>Данные по продажам</String>
+    <String>15</String>
+    <String>1</String>
+    <String>Данные по продажам</String>
+    <String>16</String>
+    <String>1</String>
+    <String>Данные по продажам</String>
+    <String>17</String>
+    <String>1</String>
+    <String>Данные по продажам</String>
+    <String>18</String>
+    <String>1</String>
+    <String>Данные по продажам</String>
+    <String>19</String>
+    <String>1</String>
+    <String>Данные по продажам</String>
+    <String>20</String>
+    <String>1</String>
+    <String>Подгруппа продаж</String>
+    <String>21</String>
+    <String>2</String>
+    <String>Подгруппа продаж</String>
+    <String>Продуктовый справочник</String>
+    <String>22</String>
+    <String>1</String>
+    <String>Продуктовый справочник</String>
+    <String>23</String>
+    <String>1</String>
+    <String>Продуктовый справочник</String>
+    <String>24</String>
+    <String>1</String>
+    <String>Продуктовый справочник</String>
+    <String>25</String>
+    <String>1</String>
+    <String>Продуктовый справочник</String>
+    <String>26</String>
+    <String>1</String>
+    <String>Продуктовый справочник</String>
+    <String>27</String>
+    <String>1</String>
+    <String>Сети</String>
+    <String>28</String>
+    <String>1</String>
+    <String>Сети</String>
+    <String>29</String>
+    <String>1</String>
+    <String>Сети</String>
+    <String>30</String>
+    <String>1</String>
+    <String>Сети</String>
+    <String>31</String>
+    <String>2</String>
+    <String>Сети</String>
+    <String>Сотрудники</String>
+    <String>32</String>
+    <String>1</String>
+    <String>Сотрудники</String>
+  </FieldSrcTables>
+  <TableViewData>
+    <Pos></Pos>
+    <CtlInfo>
+      <InternalView>
+        <Tables>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>661</Left>
+              <Top>278</Top>
+              <Width>141</Width>
+              <Height>178</Height>
+            </Pos>
+            <Caption>График работы</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>415</Left>
+              <Top>256</Top>
+              <Width>100</Width>
+              <Height>136</Height>
+            </Pos>
+            <Caption>Выгрузка продаж</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>890</Left>
+              <Top>100</Top>
+              <Width>100</Width>
+              <Height>136</Height>
+            </Pos>
+            <Caption>магазины</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>90</Left>
+              <Top>296</Top>
+              <Width>100</Width>
+              <Height>73</Height>
+            </Pos>
+            <Caption>Названия продуктов</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>183</Left>
+              <Top>53</Top>
+              <Width>100</Width>
+              <Height>94</Height>
+            </Pos>
+            <Caption>Дни скидок</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>952</Left>
+              <Top>189</Top>
+              <Width>100</Width>
+              <Height>73</Height>
+            </Pos>
+            <Caption>Сотрудники</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>121</Left>
+              <Top>501</Top>
+              <Width>100</Width>
+              <Height>72</Height>
+            </Pos>
+            <Caption>Цена продукта</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>544</Left>
+              <Top>373</Top>
+              <Width>100</Width>
+              <Height>157</Height>
+            </Pos>
+            <Caption>$Syn 3 Table</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>938</Left>
+              <Top>213</Top>
+              <Width>100</Width>
+              <Height>115</Height>
+            </Pos>
+            <Caption>График работы-7</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>142</Left>
+              <Top>467</Top>
+              <Width>100</Width>
+              <Height>199</Height>
+            </Pos>
+            <Caption>Выгрузка продаж-8</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>827</Left>
+              <Top>354</Top>
+              <Width>100</Width>
+              <Height>115</Height>
+            </Pos>
+            <Caption>Сотрудники-9</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>237</Left>
+              <Top>116</Top>
+              <Width>100</Width>
+              <Height>94</Height>
+            </Pos>
+            <Caption>$Syn 1 Table</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>386</Left>
+              <Top>373</Top>
+              <Width>100</Width>
+              <Height>178</Height>
+            </Pos>
+            <Caption>$Syn 5 Table</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>930</Left>
+              <Top>488</Top>
+              <Width>100</Width>
+              <Height>136</Height>
+            </Pos>
+            <Caption>Магазины</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>362</Left>
+              <Top>514</Top>
+              <Width>100</Width>
+              <Height>94</Height>
+            </Pos>
+            <Caption>week_day</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>711</Left>
+              <Top>90</Top>
+              <Width>100</Width>
+              <Height>115</Height>
+            </Pos>
+            <Caption>Лист1</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>722</Left>
+              <Top>571</Top>
+              <Width>100</Width>
+              <Height>73</Height>
+            </Pos>
+            <Caption>Группа продаж</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>478</Left>
+              <Top>85</Top>
+              <Width>100</Width>
+              <Height>220</Height>
+            </Pos>
+            <Caption>Данные по продажам</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>69</Left>
+              <Top>33</Top>
+              <Width>100</Width>
+              <Height>115</Height>
+            </Pos>
+            <Caption>Подгруппа продаж</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>74</Left>
+              <Top>383</Top>
+              <Width>100</Width>
+              <Height>220</Height>
+            </Pos>
+            <Caption>Продуктовый справочник</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>677</Left>
+              <Top>266</Top>
+              <Width>100</Width>
+              <Height>157</Height>
+            </Pos>
+            <Caption>Сети</Caption>
+          </TableViewTableWinSaveInfo>
+        </Tables>
+        <BroomPoints></BroomPoints>
+        <ConnectionPoints></ConnectionPoints>
+        <ZoomFactor>3ff0000000000000</ZoomFactor>
+      </InternalView>
+      <SourceView></SourceView>
+    </CtlInfo>
+    <Mode>0</Mode>
+  </TableViewData>
+  <Bookmarks></Bookmarks>
+  <SavedByVersion>12.50.20300.0</SavedByVersion>
+  <ForceBackEndMacroExecution>false</ForceBackEndMacroExecution>
+  <FieldTags>
+    <ScriptBased>
+      <FieldTagData>
+        <Tag>$key</Tag>
+        <FieldNames>
+          <String>$Field</String>
+          <String>$Table</String>
+          <String>date</String>
+          <String>id_group</String>
+          <String>Головная компания код</String>
+          <String>Код Продукта</String>
+          <String>id_sotr</String>
+          <String>$Syn 1</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$hidden</Tag>
+        <FieldNames>
+          <String>$Field</String>
+          <String>$Table</String>
+          <String>$Rows</String>
+          <String>$Fields</String>
+          <String>$FieldNo</String>
+          <String>$Info</String>
+          <String>$Syn 1</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$system</Tag>
+        <FieldNames>
+          <String>$Field</String>
+          <String>$Table</String>
+          <String>$Rows</String>
+          <String>$Fields</String>
+          <String>$FieldNo</String>
+          <String>$Info</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$text</Tag>
+        <FieldNames>
+          <String>$Field</String>
+          <String>$Table</String>
+          <String>$Info</String>
+          <String>week_day</String>
+          <String>Группа продаж</String>
+          <String>Головная компания код</String>
+          <String>Код Продукта</String>
+          <String>Уровень 03</String>
+          <String>Продукт наименование</String>
+          <String>ЦОП1</String>
+          <String>ЦОП2</String>
+          <String>ЦОП3</String>
+          <String>Клиент ТТ</String>
+          <String>КАМ</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$numeric</Tag>
+        <FieldNames>
+          <String>$Rows</String>
+          <String>$Fields</String>
+          <String>$FieldNo</String>
+          <String>date</String>
+          <String>mnt</String>
+          <String>year</String>
+          <String>id_group</String>
+          <String>Номер док</String>
+          <String>Продажи OUT Вес тн</String>
+          <String>План OUT Вес тн</String>
+          <String>Продано OUT Выручка с НДС со скидкой</String>
+          <String>Возвраты OUT Вес тн</String>
+          <String>Возвраты OUT Выручка с НДС со скидкой</String>
+          <String>id_subgroup</String>
+          <String>Топ_66</String>
+          <String>Новинки</String>
+          <String>ЗП</String>
+          <String>Шоколад</String>
+          <String>id_sotr</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$integer</Tag>
+        <FieldNames>
+          <String>$Rows</String>
+          <String>$Fields</String>
+          <String>$FieldNo</String>
+          <String>date</String>
+          <String>mnt</String>
+          <String>year</String>
+          <String>id_group</String>
+          <String>Номер док</String>
+          <String>id_subgroup</String>
+          <String>Топ_66</String>
+          <String>Новинки</String>
+          <String>ЗП</String>
+          <String>Шоколад</String>
+          <String>id_sotr</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$ascii</Tag>
+        <FieldNames>
+          <String>$Info</String>
+          <String>Головная компания код</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$timestamp</Tag>
+        <FieldNames>
+          <String>date</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$date</Tag>
+        <FieldNames>
+          <String>date</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$keypart</Tag>
+        <FieldNames>
+          <String>id_subgroup</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$synthetic</Tag>
+        <FieldNames>
+          <String>$Syn 1</String>
+        </FieldNames>
+      </FieldTagData>
+    </ScriptBased>
+    <Interactive></Interactive>
+  </FieldTags>
+  <FieldComments></FieldComments>
+  <TableComments></TableComments>
+  <CreatePrjFolder>false</CreatePrjFolder>
+  <LinkedTables></LinkedTables>
+  <AppObjectEntries></AppObjectEntries>
+  <GenericDimensions></GenericDimensions>
+  <GenericMeasures></GenericMeasures>
+  <GenericBookmarks></GenericBookmarks>
+  <ConnectionInfo></ConnectionInfo>
+  <GenericDerivedDefinitions></GenericDerivedDefinitions>
+  <GenericDerivedFields></GenericDerivedFields>
+  <BnfOff>false</BnfOff>
+  <CreatedAfterSingleQuoteExactSearch>true</CreatedAfterSingleQuoteExactSearch>
+</DocInternals>

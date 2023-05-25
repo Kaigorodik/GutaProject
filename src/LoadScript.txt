@@ -1,0 +1,84 @@
+﻿///$tab Main
+SET ThousandSep=' ';
+SET DecimalSep=',';
+SET MoneyThousandSep=' ';
+SET MoneyDecimalSep=',';
+SET MoneyFormat='# ##0,00 ₽;-# ##0,00 ₽';
+SET TimeFormat='h:mm:ss';
+SET DateFormat='DD.MM.YYYY';
+SET TimestampFormat='DD.MM.YYYY h:mm:ss[.fff]';
+SET FirstWeekDay=0;
+SET BrokenWeeks=1;
+SET ReferenceDay=0;
+SET FirstMonthOfYear=1;
+SET CollationLocale='ru-RU';
+SET MonthNames='янв.;февр.;мар.;апр.;мая;июн.;июл.;авг.;сент.;окт.;нояб.;дек.';
+SET LongMonthNames='январь;февраль;март;апрель;май;июнь;июль;август;сентябрь;октябрь;ноябрь;декабрь';
+SET DayNames='пн;вт;ср;чт;пт;сб;вс';
+SET LongDayNames='понедельник;вторник;среда;четверг;пятница;суббота;воскресенье';
+
+LET Date_update = Today (1);
+
+LOAD date, 
+     week_day, 
+     mnt, 
+     year
+FROM
+n_day.xlsx
+(ooxml, embedded labels, table is Лист1);
+
+LOAD [Группа продаж], 
+     id_group
+FROM
+[Группа продаж.xlsx]
+(ooxml, embedded labels, table is [Группа продаж]);
+
+LOAD [Головная компания код], 
+     [Код Продукта], 
+     [Номер док], 
+     date(date#([Дата док],'YYYY-MM-DD hh:mm:ss')) as date,
+     [Продажи OUT Вес тн], 
+     [План OUT Вес тн],
+     [Продано OUT Выручка с НДС со скидкой], 
+     [Возвраты OUT Вес тн], 
+     [Возвраты OUT Выручка с НДС со скидкой]
+FROM
+[Данные по продажам.xlsx]
+(ooxml, embedded labels, table is [Данные по продажам]);
+
+LOAD [Уровень 03], 
+     id_group, 
+     id_subgroup
+FROM
+[Подгруппа продаж.xlsx]
+(ooxml, embedded labels, table is [Подгруппа продаж]);
+
+LOAD [Код Продукта], 
+     [Продукт наименование], 
+     id_group, 
+     id_subgroup, 
+     Топ_66, 
+     Новинки,
+     ЗП,
+     Шоколад
+
+FROM
+[Продуктовый справочник.xlsx]
+(ooxml, embedded labels, table is [Продуктовый справочник]);
+
+LOAD ЦОП1, 
+     ЦОП2, 
+     ЦОП3, 
+     [Головная компания код], 
+     [Клиент ТТ], 
+     id_sotr
+FROM
+Сети.xlsx
+(ooxml, embedded labels, table is Сети);
+
+LOAD id_sotr, 
+     КАМ
+FROM
+Сотрудники.xlsx
+(ooxml, embedded labels, table is Сотрудники);
+
